@@ -1,0 +1,177 @@
+[
+  {
+    "dept_map_id": 2,
+    "dept_map_name": "자유전공학과",
+    "asdf": "자유전공 재밌겠다 히히"
+  },
+  {
+    "dept_map_id": 23,
+    "dept_map_name": "컴퓨터소프트웨어전공",
+    "asdf": "졸업시켜줘"
+  },
+  {
+    "dept_map_id": 19,
+    "dept_map_name": "기계시스템전공",
+    "asdf": null
+  },
+  {
+    "dept_map_id": 20,
+    "dept_map_name": "소방설비안전전공",
+    "asdf": null
+  },
+  {
+    "dept_map_id": 22,
+    "dept_map_name": "전자공학전공",
+    "asdf": null
+  },
+  {
+    "dept_map_id": 24,
+    "dept_map_name": "게임콘텐츠전공",
+    "asdf": null
+  },
+  {
+    "dept_map_id": 25,
+    "dept_map_name": "인공지능전공",
+    "asdf": null
+  },
+  {
+    "dept_map_id": 26,
+    "dept_map_name": "산업디자인전공",
+    "asdf": null
+  },
+  {
+    "dept_map_id": 27,
+    "dept_map_name": "시각디자인전공",
+    "asdf": null
+  },
+  {
+    "dept_map_id": 28,
+    "dept_map_name": "패션디자인전공",
+    "asdf": null
+  },
+  {
+    "dept_map_id": 29,
+    "dept_map_name": "실내건축전공",
+    "asdf": null
+  },
+  {
+    "dept_map_id": 30,
+    "dept_map_name": "애니메이션웹툰전공",
+    "asdf": null
+  },
+  {
+    "dept_map_id": 31,
+    "dept_map_name": "광고미디어전공",
+    "asdf": null
+  },
+  {
+    "dept_map_id": 32,
+    "dept_map_name": "방송영상전공",
+    "asdf": null
+  },
+  {
+    "dept_map_id": 33,
+    "dept_map_name": "방송문예창작전공",
+    "asdf": null
+  },
+  {
+    "dept_map_id": 34,
+    "dept_map_name": "방송연예전공",
+    "asdf": null
+  },
+  {
+    "dept_map_id": 35,
+    "dept_map_name": "식품영양학과",
+    "asdf": null
+  },
+  {
+    "dept_map_id": 36,
+    "dept_map_name": "보건의료행정학과",
+    "asdf": null
+  },
+  {
+    "dept_map_id": 37,
+    "dept_map_name": "작업치료학과",
+    "asdf": null
+  },
+  {
+    "dept_map_id": 38,
+    "dept_map_name": "반려동물보건학과",
+    "asdf": null
+  },
+  {
+    "dept_map_id": 39,
+    "dept_map_name": "응급구조과",
+    "asdf": null
+  },
+  {
+    "dept_map_id": 40,
+    "dept_map_name": "유한바이오제약전공",
+    "asdf": null
+  },
+  {
+    "dept_map_id": 41,
+    "dept_map_name": "유한생명화공전공",
+    "asdf": null
+  },
+  {
+    "dept_map_id": 42,
+    "dept_map_name": "피부메이크업전공",
+    "asdf": null
+  },
+  {
+    "dept_map_id": 43,
+    "dept_map_name": "뷰티화장품전공",
+    "asdf": null
+  },
+  {
+    "dept_map_id": 44,
+    "dept_map_name": "사회복지전공",
+    "asdf": null
+  },
+  {
+    "dept_map_id": 45,
+    "dept_map_name": "스포츠재활전공",
+    "asdf": null
+  },
+  {
+    "dept_map_id": 46,
+    "dept_map_name": "반려동물산업전공",
+    "asdf": null
+  },
+  {
+    "dept_map_id": 47,
+    "dept_map_name": "호텔조리전공",
+    "asdf": null
+  },
+  {
+    "dept_map_id": 48,
+    "dept_map_name": "카페베이커리전공",
+    "asdf": null
+  },
+  {
+    "dept_map_id": 49,
+    "dept_map_name": "호텔관광전공",
+    "asdf": null
+  },
+  {
+    "dept_map_id": 50,
+    "dept_map_name": "일본비즈니스전공",
+    "asdf": null
+  },
+  {
+    "dept_map_id": 51,
+    "dept_map_name": "경영정보전공",
+    "asdf": null
+  },
+  {
+    "dept_map_id": 52,
+    "dept_map_name": "세무회계전공",
+    "asdf": null
+  },
+  {
+    "dept_map_id": 53,
+    "dept_map_name": "항공서비스학과",
+    "asdf": null
+  }
+]

@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../styles/CertificateCard.css';
 
 
@@ -32,12 +33,16 @@ const getCertificateDescription = (certificateName: string) => {
     return '자격증에 대한 설명이 제공되지 않았습니다.';
 };
 
-const CertificateCard: React.FC<{certificateName: string; imageUrl: string }> = ({certificateName, imageUrl }) => {
-
+const CertificateCard: React.FC<{id: number; certificateName: string; imageUrl: string }> = ({id, certificateName, imageUrl }) => {
+    const navigate = useNavigate();
     const description = getCertificateDescription(certificateName);
 
+    const handleCertificateClick = () => {
+        navigate(`/certificate/${id}`);
+    };
+
     return (
-        <div className="certificate-card-v2">
+        <div className="certificate-card-v2" onClick={handleCertificateClick} style={{ cursor: 'pointer' }}>
             <div className="card-image-wrapper">
                 <img src={imageUrl} alt={certificateName} />
             </div>

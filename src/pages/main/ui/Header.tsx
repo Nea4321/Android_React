@@ -20,7 +20,7 @@ const Header: React.FC = () => {
             <nav className="nav">
                 <ul>
                     <li className='nav-dept'><Link to="/departments">학과리스트</Link></li>
-                    <li className='nav-cert'><a href="#">자격증리스트</a></li>
+                    <li className='nav-cert'><Link to="/">자격증리스트</Link></li>
 
                 </ul>
             </nav>

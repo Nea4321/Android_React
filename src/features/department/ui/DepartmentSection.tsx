@@ -1,4 +1,5 @@
 import { memo } from "react"
+import { useNavigate } from "react-router-dom"
 import type { DeptList } from "@/entities/department/model"
 import { deptListStyles } from "@/pages/department-list/styles";
 
@@ -7,6 +8,12 @@ interface DepartmentCardProps {
 }
 
 export const DepartmentSection = memo(({ department }: DepartmentCardProps) => {
+    const navigate = useNavigate();
+
+    const handleDepartmentClick = (mapId: number) => {
+        navigate(`/departments/${mapId}`);
+    };
+
     return (
         <ul className={deptListStyles.facultyItem}>
             <div className={deptListStyles.facultyName}>
@@ -15,9 +22,12 @@ export const DepartmentSection = memo(({ department }: DepartmentCardProps) => {
             <div className={deptListStyles.departmentList}>
                 {department.child.map((child) => (
                     <li key={`${child.child_type}-${child.child_id}`} className={deptListStyles.departmentItem}>
-                        <a href="#" className={deptListStyles.departmentLink} data-id={child.child_id}>
+                        <button 
+                            className={deptListStyles.departmentLink} 
+                            onClick={() => handleDepartmentClick(child.map_id)}
+                        >
                             {child.child_name} ({child.child_type})
-                        </a>
+                        </button>
                     </li>
                 ))}
             </div>

@@ -34,7 +34,7 @@ export interface DeptList {
   child: DeptChildList[]
 }
 
-export interface DeptData{
+export interface DeptData {
   dept_map_id: number
   asdf: string
 }

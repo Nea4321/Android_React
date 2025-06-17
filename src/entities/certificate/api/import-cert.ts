@@ -1,6 +1,6 @@
-import certDept from '../../../../public/cert/cert_dept.json'
-import certData from '../../../../public/cert/cert_data.json'
-import certficates from '../../../../public/cert/certificate.json'
+import certDept from '../../../data/cert/cert_dept.json'
+import certData from '../../../data/cert/cert_data.json'
+import certficates from '../../../data/cert/certificate.json'
 
 export const importCert = {
 

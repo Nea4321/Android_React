@@ -1,2 +1,2 @@
+export { MainPage } from './MainPage'
 export * from './ui'
-export * from './styles'

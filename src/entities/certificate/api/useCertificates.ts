@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 // alias sorry zz
-import certificateData from '../../../../public/cert/certificate.json';
+import certificateData from '../../../data/cert/certificate.json';
 // vite 원칙으로 public 폴더에서 import 하는 건 금지래
 // 실행은 되는데 노란 줄이 뜨긴 해
 
