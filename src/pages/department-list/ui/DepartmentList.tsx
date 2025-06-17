@@ -1,6 +1,4 @@
-import { departmentApi } from "@/entities/department/api"
 import { DepartmentSection } from "@/features/department/ui"
-import { useDataFetching } from "@/shared/hooks";
 import { deptListStyles } from "../styles";
 import {importDept} from "@/entities/department/api";
 

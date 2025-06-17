@@ -45,11 +45,22 @@ const processedCertificates: Certificate[] = certificateData.map((cert: Certific
 export const useCertificates = (page: number = 0, size: number = 10) => {
     const [certificates, setCertificates] = useState<Certificate[]>([]);
     const [totalPages, setTotalPages] = useState<number>(0);
+    const [loading, setLoading] = useState<boolean>(false);
+    const [error, setError] = useState<string | null>(null);
 
     useEffect(() => {
-        setCertificates(processedCertificates.slice(page * size, (page + 1) * size));
-        setTotalPages(Math.ceil(processedCertificates.length / size));
+        setLoading(true);
+        setError(null);
+        
+        try {
+            setCertificates(processedCertificates.slice(page * size, (page + 1) * size));
+            setTotalPages(Math.ceil(processedCertificates.length / size));
+        } catch (err) {
+            setError(err instanceof Error ? err.message : '데이터를 불러오는 중 오류가 발생했습니다.');
+        } finally {
+            setLoading(false);
+        }
     }, [page, size]);
 
-    return { certificates, totalPages };
+    return { certificates, totalPages, loading, error };
 };
